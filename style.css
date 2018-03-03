@@ -1,0 +1,109 @@
+body .calculator{
+	border-radius: 20px;
+	float : left;
+	margin-left: 20px;
+	margin-top: 100px;
+    width: 320px;
+	height: 520px;
+	background-color: #ccffe6;
+}
+
+div .calculator-inner{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 350px;
+	height: 450px;
+}
+.numbers{
+	display: table;
+	margin-top: 5px;
+    margin-bottom: 30px;
+}
+.numbers a{
+  width: 60px;
+  border-radius: 20px;
+  height: 60px;
+  margin: 0px 12px 12px 0px;
+  margin-bottom: 20px;
+  float: left;
+  text-align: center;
+  font-family: comic sans ms;
+  background-color: #888;
+  text-align: center;
+  padding: -2px;
+}
+.buttons a:hover
+{
+	color: red;
+  cursor: pointer;
+}
+.buttons  .scientific-operators a:active
+{
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  opacity: .5;
+}
+.operators a{
+	margin: 0px 10px 10px 0px;
+	width: 60px;
+    height: 60px;
+	font-family: comic sans ms;
+    margin: 0 12px 12px 0;
+    margin-bottom: 20px;
+	float: left;
+	background-color: #888;
+	border-radius: 20px;
+	text-align: center;
+	padding: -2px;
+}
+input{	
+	background-color: white;
+	margin-top: 50px;
+	border-radius: 20px;
+	height: 60px;
+	width: 300px;
+	margin-left : 10px;
+	margin-right: 30px;
+}
+
+.scientific-operators{
+	height: 520px;
+	float: left;
+	width : 80px;
+	border-radius: 20px;
+	margin-left: 250px;
+	margin-top: 100px;
+	background-color :  #ccffe6;
+}
+
+.scientific-operators a{
+	display: table;
+	width : 40px;
+	margin: 0px 10px 10px 0px;
+	font-family: comic sans ms;
+    margin-top : 5px;
+	margin-left : 15px;
+    margin-bottom: 20px;
+	float: left;
+	background-color: #888;
+	border-radius: 5px;
+	text-align: center;
+	padding: 2px;
+	background-color: grey;
+}
+
+.scientific-operators a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.scientific-operators a:active{
+	-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  opacity: .5;
+}

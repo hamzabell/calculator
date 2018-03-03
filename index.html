@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<script type="text/javascript" src="Scp_file.js"></script>
+<div class = "scientific-operators">
+<a onclick="cos()">Cos</a>
+<a onclick="sin()">Sin</a>
+<a onclick="tan()">Tan</a>
+<a onclick="ln()">Log</a>
+<a onclick="sqrt()">Sqrt</a>
+<a onclick="exp()">^</a>
+</div>
+<div class= "calculator">
+<input id= "screen" type="text" placeholder= "0" style="text-align: right; font-size: 20px; " readonly ><br/>
+<div class="calculator-inner">
+<div class = "buttons">
+<span class = "operators">
+	<a onclick= "addChar('+')">+</a>
+	<a onclick= "addChar('-')">-</a>
+	<a onclick= "addChar('/')">/</a>
+	<a onclick= "addChar('*')">*</a>
+</span>
+
+<span class = "numbers">
+	<a onclick="addChar(1)">1</a>
+	<a onclick="addChar(2)">2</a>
+	<a onclick="addChar(3)">3</a>
+	<a onclick="addChar(4)">4</a>
+	<a onclick="addChar(5)">5</a>
+	<a onclick="addChar(6)">6</a>
+	<a onclick="addChar(7)">7</a>
+	<a onclick="addChar(8)">8</a>
+	<a onclick="addChar(9)">9</a>
+	<a onclick="addChar(0)">0</a>
+	<a id="clear" style= "background-color: #ff4d4d;" onclick="clearInput()"> C</a>
+    <a id= "equals" onclick="isEqual()"> = </a>
+</span>
+
+</div>
+</div>
+</div> 
+
+</body>
+</html>
